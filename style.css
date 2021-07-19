@@ -31,7 +31,7 @@ h1
     position:relative;
     text-decoration: none;
     text-align: center;
-    display:inline-flex;    
+    display:contents;    
 }
 a:link , a:visited
 {
