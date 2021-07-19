@@ -1,28 +1,54 @@
-
 body
-{   
-    background-color: rgb(42, 42, 42);
-    font-family: arial;
-    font-size: medium;
-    text-shadow:2px 2px 2px  rgb(41, 103, 119)   ;    
-    color: rgb(106, 208, 255);
+{
+    margin : 0px;
+    padding : 0px;;
 }
 h1
 {
-    border:5px solid rgb(163, 0, 128);
-    background-color: rgb(40, 40, 40);
+    background-color: cadetblue;
+    margin : 0px;
+    padding-top: 100px;
+    padding-left: 30%;
+    padding-bottom: 30px;
+    color: black;
+    font-size: xx-large;
     font-family: arial;
-    text-decoration-style: dotted;
-    text-align: center;
-    font-size: x-large;
-    text-shadow:2px 2px 2px  rgb(68, 10, 63)   ;    
-    color: rgb(255, 65, 246);
+    letter-spacing:40px;
 }
-.IntroTXT
+.ipsum
 {
-    background-color: rgb(42, 42, 42);
-    font-family: arial;
-    font-size: medium;
-    text-shadow:2px 2px 2px  rgb(19, 53, 61)   ;    
-    color: rgb(106, 255, 210);    
+    font-size: large;
+    background-color: black;
+    color: rgb(97, 192, 255);
+    margin-right: 70%;
+    text-align: justify;
+}
+.BTN_1
+{
+    
+    font-size: large;
+    margin:0px;
+    position:relative;
+    text-decoration: none;
+    text-align: center;
+    display:inline-flex;    
+}
+a:link , a:visited
+{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-size: large;
+    padding : 50px;
+    margin :0px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+ 
+a:hover
+{
+    background-color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
+   
+   
 }
