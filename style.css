@@ -6,12 +6,16 @@
     border-color: blue;
     width: 50%;
     top : 100px;
+    overflow : auto;
+    float: right;
+    
 }
 #div2
 {
     height: 500px;
     background-color: green;
     position : static;
+    clear : left;
 
 }
 a:link , a:visited
@@ -23,9 +27,12 @@ a:link , a:visited
     text-decoration : none;
     display : inline-block;
     border-style : solid;
+    float: left;
+    height: 200px;
 }
 a:hover
 {
     background-color: green;
-    color : #BBB;
+    color :;
+
 }
